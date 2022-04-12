@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josue Santos</title>
+    <meta name="description" content="Josue Dilmo dos Santos, Science Computing Student">
+
+	<!-- Preload hero image -->
+    <link rel="preload" href="../assets/img/contact.webp" as="image">
+
+	<!-- Stylesheets -->
+    <link rel="stylesheet" href="../assets/css/lunadoge.css" />
+    <link rel="stylesheet" href="../assets/css/custom.css" />
+
+	<!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap" rel="stylesheet">
+
+	<!-- Font Awesome 5 icons -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+
+    <!-- Light Awesome icons -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <!-- Google Material Design Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+    <!-- Animate on Scroll Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- stylesheet for the cookies -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+</head>
+
+
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+
+    <!-- navigation menu -->
+    <nav class="container-menu menu-desktop">
+        <a href="../index.html"><img src="../assets/img/website-logo.png" alt="website logo"></a>
+        <ul>
+            <li><a href="../portfolio/index.html">About</a></li>
+            <li><a href="../index.html#projects">Projects</a></li>          
+            <li><a href="#contact-form" id="btn-cta" class="btn-rounded"><span>Contact</span><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+        <div class="item-icon">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </nav>
+
+    <!-- header -->
+    <header class="hero-block bg-img-right text-center-mobile">
+        <div class="hero-text-container">
+            <h1 class="slide-in-bottom">Hello there!</h1>
+            <h2 class="slide-in-top">To send me a message, <a href="#contact-form">click here</a>.<br>
+                Thank you for trying to reach me!</a><br>
+            </h2>
+        </div>
+            <div class="container-btn">
+                <a href="../portfolio/index.html" class="btn btn-primary btn-rounded"><span>Portfolio <i class="fas fa-id-card"></i></span></a>
+            </div>
+
+        <div class="hero-bg-media">
+            <img src="../assets/img/contact.webp" alt="contact image">
+        </div>
+    </header>
+
+    <!-- main content with sections -->
+    <main>
+
+        <section class="container-contact-form" >
+
+            <!-- Contact form starts here -->
+            <form id="contact-form" name="contact-form" accept-charset="utf-8" method="post" action="https://formspree.io/nnnnnnnn">
+
+                <div class="contact-form-upper text-center"><h2>Send a message</h2>
+                </div>
+
+                <!-- Begin contact form fields -->
+
+                <div class="flex-row">
+                    <div class="item-name">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" name="name" id="full-name" placeholder="Your First and Last Name." required="">
+                    </div>
+                    <div class="item-email">
+                        <label for="email-address">Email</label>
+                        <input type="email" name="_replyto" id="email-address" placeholder="Your Email Address." required="">
+                    </div>
+                </div>
+
+                <div class="flex-row">
+                    <div class="item-textarea">
+                        <label for="message">Message</label>
+                        <textarea rows="5" name="message" id="message" placeholder="Your Message." required=""></textarea>
+                    </div>
+
+                    <div class="item-btn">
+                        <button id="btn-submit" type="submit" class="btn-rounded"><span>Send</span><i class="fas fa-arrow-circle-right"></i></button> 
+                    </div>
+                </div>
+
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                <!-- End contact form fields -->
+
+            </form><!-- Contact form ends here -->
+    </section><!-- End container for contact form -->
+
+
+
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <h2>Josue Santos</h2>
+        <h3>Science computing student</h3>
+
+        <ul class="footer-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../portfolio/index.html">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <ul class="footer-icons">
+            <li><a href="https://www.linkedin.com/in/josuedds" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/JosueDilmo" target="_blank"><i class="fab fa-github-square"></i></a></li>
+            <li><a href="https://twitter.com/Josuedilmo" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.instagram.com/josuedilmo/" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+        </ul>
+
+        <p class="privacy"><a href="../privacy.html"  target="_blank">Privacy &amp; Legal</a></p>
+
+    </footer>
+
+    <!-- Animate on Scroll Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#000",
+          "text": "#0f0"
+        },
+        "button": {
+          "background": "#0f0"
+        }
+      },
+      "content": {
+        "href": "https://josuedilmo.github.io/privacy.html"
+      }
+    });
+    </script>
+</body>
+</html>
